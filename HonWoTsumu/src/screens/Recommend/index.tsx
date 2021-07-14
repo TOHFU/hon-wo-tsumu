@@ -1,12 +1,12 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
-import {Center, View, Text} from 'native-base';
+import { StyleSheet } from 'react-native';
+import { Center, Container, View, Text } from 'native-base';
 
-const Search: React.FC = () => {
+const Recommend: React.FC = () => {
   return (
     <View style={page.container}>
       <Center flex={1}>
-        <Text>Search</Text>
+        <Text>Recommend</Text>
       </Center>
     </View>
   );
@@ -21,4 +21,4 @@ const page = StyleSheet.create({
 });
 
 
-export default Search;
+export default Recommend;
